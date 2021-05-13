@@ -8,7 +8,8 @@ class BookTest {
   @Test
   void addCollection(){
     //creating collection
-    Set<String> collectionSet = new HashSet<>();
+    Collection<String> collectionSet = new LinkedList<>();
+
     //add Books in this collection
     collectionSet.add("Information System");
     collectionSet.add("Data Science");
@@ -19,7 +20,7 @@ class BookTest {
   @Test
   void removeCollection(){
     //creating collection
-    Set<String> collectionSet = new HashSet<>();
+    Collection<String> collectionSet = new LinkedList<>();
     //add Books in this collection
     collectionSet.add("Information System");
     collectionSet.add("Data Science");
@@ -32,7 +33,7 @@ class BookTest {
   @Test
   void findCollection(){
     //creating collection
-    Set<String> collectionSet = new HashSet<>();
+    Collection<String> collectionSet = new LinkedList<>();
     //add Books in this collection
     collectionSet.add("Information System");
     collectionSet.add("Data Science");
